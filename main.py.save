@@ -1,0 +1,13 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get('/')
+def home():
+        return {"produ "id": 1,
+            			"image": "1.webp",
+            			"name": "T-shirt 1",
+            			"price": 150,
+            			"article": "0001",
+            			"available": true
+			}]}
