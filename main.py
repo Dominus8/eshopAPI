@@ -33,5 +33,10 @@ db = [
 
 
 @app.get('/products')
+def products():
+    return db
+
+
+@app.get('/')
 def home():
     return db
