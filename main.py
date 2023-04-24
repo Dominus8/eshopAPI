@@ -11,6 +11,7 @@ origins = [
     "http://localhost:8080",
     "http://localhost:8000/",
     'http://212.109.195.83:8181/',
+    "http://212.109.195.83:8181/products",
     'http://212.109.195.83:8080/',
 ]
 app.add_middleware(
